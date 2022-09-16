@@ -1,5 +1,8 @@
 # cyclicsort
 # write cyclic sort program in java.
+//this sorting program only works when the elements int the array are 1 till n
+	//and continuous
+  
 package vishal;
 
 import java.util.Arrays;
@@ -13,9 +16,7 @@ public class cyclicsort {
 		//System.out.println(no);
 	}
   
-	//this sorting program only works when the elements int the array are 1 till n
-	//and continuous
-  
+	
 	static void sort(int[] nums) {
 		int i=0;
 		while(i<nums.length) {
